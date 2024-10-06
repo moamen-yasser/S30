@@ -190,7 +190,7 @@ option:before {
 }
 /*=============================================================================================================*/
 
-@media (orientation: landscape) and (max-height: 300px){
+/* @media (orientation: landscape) and (max-height: 300px){
     body .head {
         padding: 0 30px;
         margin-top: 380vh;
@@ -318,7 +318,7 @@ option:before {
         margin-top: -1px;
     }
 }
-@media (orientation: landscape) and (min-height: 500px){
+@media (orientation: landscape) and (min-height: 500px) and (max-height: 1024px) {
     body .head {
         padding: 0 30px;
         margin-top: 220vh;
@@ -333,7 +333,7 @@ option:before {
     body .footer {
         margin-top: -1px;
     }
-}
+} */
 
 /*=====================================================================================*/
 
