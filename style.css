@@ -5,27 +5,17 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-/* html{
-    height: 100%;
-    height: min-content !important;
-    overflow-x: hidden !important;
-} */
 body{
     max-width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden !important;
-    /* background-image: url('images/Group\ 8043.svg'); */
     background-image: url('images/Web\ 1920\ –\ 2.jpg');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    /* margin-left: auto;
-    margin-right: auto;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover; */
+    background-color: #09458b;
 }
 .temp{
     height: 1100px;
@@ -34,7 +24,6 @@ body{
     width: 100%;
     height:100%; 
     padding: 0 200px ;
-    /* margin-top: 1000px; */
 }
 .head .image_header{
     width: 100%;
@@ -54,7 +43,6 @@ body{
 .headBtn .headerBtn{
     width: 90% !important;
 }
-
 /*==================================================================*/
 .all_form{
     display: flex;
@@ -186,7 +174,6 @@ option:before {
     font-size: 9px;
     width: 68%;
     padding-left: 95px;
-    /* margin-bottom: -150px !important; */
 }
 .footer {
     margin-top: -150px;
@@ -202,16 +189,14 @@ option:before {
 
 @media screen and (max-width: 300px){
 body{
-    max-width: 100% !important;
-    overflow-x: hidden !important; 
+    background-size: contain;
 }
 /*===========================================================*/
 .temp{
-    height: 1100px;
+    height: 230px;
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 8px;
@@ -273,15 +258,13 @@ html body .container form select{
 /*=============================================================================================================*/
 @media screen and (min-width:300px) and (max-width: 360px){
 body{
-    max-width: 100%;
-    max-height: 100%;
+    background-size: contain;
 }
 .temp{
-    height: 1100px;
+    height: 250px;
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 9px;
@@ -337,14 +320,13 @@ html body .container select{
 /*=============================================================================================================*/
 @media screen and (min-width:360px) and (max-width: 410px){
 body{
-    max-width: 100%;
+    background-size: contain;
 }
 .temp{
-    height: 1100px;
+    height: 300px;
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 9px;
@@ -410,10 +392,10 @@ html body .container form select{
 /*=============================================================================================================*/
 @media screen and (min-width:410px) and (max-width: 462px){
 body{
-    max-width: 100%;
+    background-size: contain;
 }
 .temp{
-    height: 1100px;
+    height: 330px;
 }
 .head {
     padding: 0 30px;
@@ -482,14 +464,13 @@ html body .container form select{
 /*=============================================================================================================*/
 @media screen and (min-width:462px) and (max-width: 520px){
 body{
-    max-width: 100%;
+    background-size: contain;
 }
 .temp{
-    height: 1100px;
+    height: 360px;
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 9px;
@@ -554,10 +535,10 @@ html body .container form select{
 /*=============================================================================================================*/
 @media screen and (min-width:521px) and (max-width:640px){
 body{
-    max-width: 100%;
+    background-size: contain;
 }
 .temp{
-    height: 1100px;
+    height: 450px;
 }
 .head {
     padding: 0 30px;
@@ -626,14 +607,13 @@ html body .container form select{
 /*=============================================================================================================*/
 @media screen and (min-width:641px) and (max-width: 730px) {
 body{
-max-width: 100%;
+    background-size: contain;
 }
 .temp{
-    height: 1100px;
+    height: 500px;
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 10px;
@@ -698,14 +678,13 @@ html body .container form select{
 /*=============================================================================================================*/
 @media screen and (min-width:730px) and (max-width: 760px){
 body{
-max-width: 100%;
+    background-size: contain;
 }
 .temp{
-    height: 1100px;
+    height: 550px;
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 11px;
@@ -766,15 +745,13 @@ html body .container form select{
 /*=============================================================================================================*/
 @media screen and (min-width:761px) and (max-width:872px){
 body{
-    max-width: 100%;
-    max-height: 100%;
+    background-size: contain;
 }
 .temp{
-    height: 1200px;
+    height: 600px;
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 180vh; */
 }
 .head p{
     font-size: 12px;
@@ -839,14 +816,13 @@ html body .container form select{
 /*=============================================================================================================*/
 @media screen and (min-width:872px) and (max-width:1050px){
 body{
-max-width: 100%;
+    background-size: contain;
 }
 .temp{
-    height: 1200px;
+    height: 710px;
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 182vh; */
 }
 .head p{
     font-size: 16px;
@@ -918,7 +894,6 @@ body{
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 150vh; */
 }
 .head p{
     font-size: 16px;
@@ -968,7 +943,6 @@ overflow-x: hidden !important;
 }
 .head {
     padding: 0 30px;
-    /* margin-top: 150vh; */
 }
 .head p{
     font-size: 19px;
