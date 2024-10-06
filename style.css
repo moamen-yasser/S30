@@ -5,26 +5,36 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-html{
+/* html{
     height: 100%;
     height: min-content !important;
     overflow-x: hidden !important;
-}
+} */
 body{
     max-width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden !important;
-    background-image: url('images/Group\ 8043.svg');
+    /* background-image: url('images/Group\ 8043.svg'); */
+    background-image: url('images/Web\ 1920\ –\ 2.jpg');
     background-size: cover;
+    background-position: top center;
     background-repeat: no-repeat;
+    /* margin-left: auto;
+    margin-right: auto;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover; */
+}
+.temp{
+    height: 1100px;
 }
 .head {
     width: 100%;
     height:100%; 
-    padding: 0 200px;
-    margin-top: 1000px;
+    padding: 0 200px ;
+    /* margin-top: 1000px; */
 }
 .head .image_header{
     width: 100%;
@@ -190,165 +200,21 @@ option:before {
 }
 /*=============================================================================================================*/
 
-/* @media (orientation: landscape) and (max-height: 300px){
-    body .head {
-        padding: 0 30px;
-        margin-top: 380vh;
-    }
-    html body .all_form{
-        margin-top: 10vh;
-    }
-    body .footerText p {
-        width: 95%;
-        padding-left: 10px;
-    }
-    body .footer {
-        margin-top: -1px;
-    }
-}
-@media (orientation: landscape) and (min-height: 300px) and (max-height: 315px){
-    body .head {
-        padding: 0 30px;
-        margin-top: 360vh;
-    }
-    html body .all_form{
-        margin-top: 10vh;
-    }
-    body .footerText p {
-        width: 95%;
-        padding-left: 10px;
-    }
-    body .footer {
-        margin-top: -1px;
-    }
-}
-@media (orientation: landscape) and (min-height: 315px) and (max-height: 335px){
-    body .head {
-        padding: 0 30px;
-        margin-top: 360vh;
-    }
-    html body .all_form{
-        margin-top: 10vh;
-    }
-    body .footerText p {
-        width: 95%;
-        padding-left: 10px;
-    }
-    body .footer {
-        margin-top: -1px;
-    }
-}
-@media (orientation: landscape) and (min-height: 335px) and (max-height: 350px){
-    body .head {
-        padding: 0 30px;
-        margin-top: 340vh;
-    }
-    html body .all_form{
-        margin-top: 10vh;
-    }
-    body .footerText p {
-        width: 95%;
-        padding-left: 10px;
-    }
-    body .footer {
-        margin-top: -1px;
-    }
-}
-@media (orientation: landscape) and (min-height: 350px) and (max-height: 375px){
-    body .head {
-        padding: 0 30px;
-        margin-top: 320vh;
-    }
-    html body .all_form{
-        margin-top: 10vh;
-    }
-    body .footerText p {
-        width: 95%;
-        padding-left: 10px;
-    }
-    body .footer {
-        margin-top: -1px;
-    }
-}
-@media (orientation: landscape) and (min-height: 375px) and (max-height: 400px){
-    body .head {
-        padding: 0 30px;
-        margin-top: 300vh;
-    }
-    html body .all_form{
-        margin-top: 10vh;
-    }
-    body .footerText p {
-        width: 95%;
-        padding-left: 10px;
-    }
-    body .footer {
-        margin-top: -1px;
-    }
-}
-@media (orientation: landscape) and (min-height: 400px) and (max-height: 450px){
-    body .head {
-        padding: 0 30px;
-        margin-top: 280vh;
-    }
-    html body .all_form{
-        margin-top: 10vh;
-    }
-    body .footerText p {
-        width: 95%;
-        padding-left: 10px;
-    }
-    body .footer {
-        margin-top: -1px;
-    }
-}
-@media (orientation: landscape) and (min-height: 450px) and (max-height: 500px){
-    body .head {
-        padding: 0 30px;
-        margin-top: 250vh;
-    }
-    html body .all_form{
-        margin-top: 10vh;
-    }
-    body .footerText p {
-        width: 95%;
-        padding-left: 10px;
-    }
-    body .footer {
-        margin-top: -1px;
-    }
-}
-@media (orientation: landscape) and (min-height: 500px) and (max-height: 1024px) {
-    body .head {
-        padding: 0 30px;
-        margin-top: 220vh;
-    }
-    html body .all_form{
-        margin-top: 10vh;
-    }
-    body .footerText p {
-        width: 95%;
-        padding-left: 10px;
-    }
-    body .footer {
-        margin-top: -1px;
-    }
-} */
-
-/*=====================================================================================*/
-
 @media screen and (max-width: 300px){
 body{
     max-width: 100% !important;
     overflow-x: hidden !important; 
 }
 /*===========================================================*/
+.temp{
+    height: 1100px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 170vh;
+    /* margin-top: 170vh; */
 }
 .head p{
-    font-size: 9px;
+    font-size: 8px;
     width: 100%;
 }
 .headBtn {
@@ -358,7 +224,7 @@ body{
 .headBtn .headerBtn{
     width: 100% !important;
     height: 40px !important;
-    font-size: 12px !important;
+    font-size: 10px !important;
 }
 
 /*=====================================================================================*/
@@ -410,9 +276,12 @@ body{
     max-width: 100%;
     max-height: 100%;
 }
+.temp{
+    height: 1100px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 170vh;
+    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 9px;
@@ -470,9 +339,12 @@ html body .container select{
 body{
     max-width: 100%;
 }
+.temp{
+    height: 1100px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 170vh;
+    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 9px;
@@ -540,9 +412,11 @@ html body .container form select{
 body{
     max-width: 100%;
 }
+.temp{
+    height: 1100px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 170vh;
 }
 .head p{
     font-size: 9px;
@@ -553,12 +427,13 @@ body{
     margin-bottom: 0px !important;
 }
 .headBtn .headerBtn{
-    width: 90% !important;
+    width: 100% !important;
     height: 40px !important;
     font-size: 15px !important;
 }
 /*==================================================================*/
 .all_form{
+    box-sizing: border-box;
     margin-top: 10vh;
 }
 .all_form .global_lines{
@@ -609,9 +484,12 @@ html body .container form select{
 body{
     max-width: 100%;
 }
+.temp{
+    height: 1100px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 170vh;
+    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 9px;
@@ -678,9 +556,12 @@ html body .container form select{
 body{
     max-width: 100%;
 }
+.temp{
+    height: 1100px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 170vh;
+    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 9px;
@@ -747,9 +628,12 @@ html body .container form select{
 body{
 max-width: 100%;
 }
+.temp{
+    height: 1100px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 170vh;
+    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 10px;
@@ -816,9 +700,12 @@ html body .container form select{
 body{
 max-width: 100%;
 }
+.temp{
+    height: 1100px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 170vh;
+    /* margin-top: 170vh; */
 }
 .head p{
     font-size: 11px;
@@ -882,9 +769,12 @@ body{
     max-width: 100%;
     max-height: 100%;
 }
+.temp{
+    height: 1200px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 180vh;
+    /* margin-top: 180vh; */
 }
 .head p{
     font-size: 12px;
@@ -951,9 +841,12 @@ html body .container form select{
 body{
 max-width: 100%;
 }
+.temp{
+    height: 1200px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 182vh;
+    /* margin-top: 182vh; */
 }
 .head p{
     font-size: 16px;
@@ -1018,11 +911,14 @@ html body .container form select{
 /*=============================================================================================================*/
 @media screen and (min-width:1050px) and (max-width:1200px){
 body{
-max-width: 100%;
+    max-width: 100%;
+}
+.temp{
+    height: 1000px;
 }
 .head {
     padding: 0 30px;
-    margin-top: 150vh;
+    /* margin-top: 150vh; */
 }
 .head p{
     font-size: 16px;
@@ -1067,9 +963,12 @@ body{
 max-width: 100%;
 overflow-x: hidden !important;
 }
+.temp{
+    height: 1000px;
+}
 .head {
     padding: 0 30px;
-    margin-top: 150vh;
+    /* margin-top: 150vh; */
 }
 .head p{
     font-size: 19px;
@@ -1100,6 +999,3 @@ select{
     margin-top: -1px;
 }
 }
-
-
-
